@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgba(79, 162, 245, 0.356);
+            text-align: left;
+        }
+
+        h1 {
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+
+        .centered-list {
+            display: inline-block;
+            text-align: left;
+            margin: 10px auto;
+        }
+
+        ol, ul {
+            font-size: 20px;
+            color: black;
+            font-style: italic;
+            text-size-adjust: 100%;
+            list-style-position: inside;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+
+    <h2>Lista ordenadas</h2>
+    <div class="centered-list">
+        <ol type="I">
+            <li>Acordar</li>
+            <li>Lavar o rosto</li>
+            <li>Tomar café</li>
+            <li>Estudar programação</li>
+            <li>Academia</li>
+            <li>Tomar suplementação</li>
+        </ol>
+    </div>
+
+    <h2>Lista não-ordenadas</h2>
+    <div class="centered-list">
+        <ul type="circle">
+            <li>Estudar HTML</li>
+            <li>Estudar CSS</li>
+            <li>Estudar JavaScript</li>
+            <li>Estudar Python</li>
+            <li>Estudar Java</li>
+        </ul>
+    </div>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <div class="centered-list">
+        <ol>
+            <li>Antigas</li>
+            <ol type="circle">
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="circle" start="4">
+                <li>Rust</li>
+                <li>Go</li>
+                <li>TypeScript</li>
+            </ol>
+        </ol>
+    </div>
+
+    <h2>Meus jogos favoritos</h2>
+    <div class="centered-list">
+        <ul>
+            <li>Counter-Strike
+                <ul type="circle">
+                    <li>CS 2</li>
+                    <li>CS 1.6</li>
+                    <li>CS SOURCE</li>
+                </ul>
+            </li>
+            <li>Valorant</li>
+            <li>Outros jogos
+                <ul>
+                    <li>League of Legends</li>
+                    <li>Call of Duty</li>
+                    <li>FIFA</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <h2> Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de sites!</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilo para a formatação de sites!</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para adicionar interatividade a sites!</dd>
+
+    </dl>
+</body>
+</html>

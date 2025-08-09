@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            :root{
+                --velocidade: 5; /* Velocidade do marquee */
+            }
+            .marquee { 
+                animation: deslizar var(--velocidade)s linear infinite;
+                white-space: nowrap;
+                font-size: 24px;
+                color: rgb(7, 3, 3);
+                overflow: hidden;
+                display: block;
+                width: 100%;
+            }
+            @keyframes deslizar {
+                0% {
+                    transform: translateX(100%);
+        <div class="marquee">
+            <span style="color: red; font-size: 2em;">
+                <b>Oi Danilo</b>
+            </span>
+        </div>
+        </style>
+        <title> Meu site HTML4 </title>
+    </head>
+    <body bgcolor="white">
+        Eu moro na <u> Avenida Bias Fortes 1361- Curvelo-MG</u>
+        <marquee direction="right">
+            <font color="red" size="5">
+                <b>Oi Danilo</b>
+            </font>
+        </marquee>
+    </body>
+</html>
